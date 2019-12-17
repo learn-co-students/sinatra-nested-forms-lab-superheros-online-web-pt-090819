@@ -1,4 +1,4 @@
-class Team < Sinatra::Base
+class Team
   attr_accessor :name, :motto
   
   @@all = []
